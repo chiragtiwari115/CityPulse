@@ -15,11 +15,11 @@ copy .env.example .env.local
 
 Or manually create `Frontend/.env.local`:
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8080/api
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyBppxRHhRHpnKSJ2VHyaSTftrLZWmJr2ec
-NEXT_PUBLIC_AUTH0_DOMAIN=dev-2xgho7dwrynbwitj.us.auth0.com
-NEXT_PUBLIC_AUTH0_CLIENT_ID=Rgvhiktnu7joCnBxkZsG4ZsO7ZXFewZd
-NEXT_PUBLIC_AUTH0_CALLBACK_URL=http://localhost:3000/callback
+NEXT_PUBLIC_API_URL=''
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=''
+NEXT_PUBLIC_AUTH0_DOMAIN=''
+NEXT_PUBLIC_AUTH0_CLIENT_ID=''
+NEXT_PUBLIC_AUTH0_CALLBACK_URL=''
 ```
 
 ### 2. Backend Environment Variables
@@ -33,7 +33,7 @@ Set these environment variables in your system:
 $env:SPRING_DATASOURCE_URL="jdbc:mysql://localhost:3306/citypulse?useSSL=false&serverTimezone=UTC"
 $env:SPRING_DATASOURCE_USERNAME="root"
 $env:SPRING_DATASOURCE_PASSWORD="your_password"
-$env:APP_JWT_SECRET="NE55M3gxbFBJckFjWUdxSktWU0Q5OGdXQ2hUanZFZjU="
+$env:APP_JWT_SECRET=""
 $env:SPRING_MAIL_HOST="smtp.gmail.com"
 $env:SPRING_MAIL_PORT="587"
 $env:SPRING_MAIL_USERNAME="your_email@gmail.com"
